@@ -47,6 +47,31 @@
             height: 100%;
             object-fit: cover;
         }
+        /* Counter */
+        .counter-section {
+            background-color: #163a46;
+            padding: 30px 0;
+        }
+
+        .counter-box {
+            text-align: center;
+        }
+
+        .counter-icon {
+            font-size: 9vh;
+            color: #e63946;
+        }
+
+        .counter-number {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .counter-text {
+            color: whitesmoke;
+            font-size: 18px;
+            font-weight: 500;
+        }
     </style>
 
 </head>
@@ -219,15 +244,52 @@
         </div>
     </section>
 
-    <section class="banner">
-        <div class="container-fluid p-0">
+<!-- counter -->
+     <section class="counter-section">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <img src="bottom-img.png" alt="banner-image" class="img-fluid w-100">
+                <div class="col-sm-3 text-center">
+                    <div class="counter-icon">
+                        <i class="bi bi-emoji-laughing"></i>
+                    </div>
+                    <div class="counter-text">
+                        <h2 class="counter-number">590</h2>
+                        Happy Clients
+                    </div>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="counter-icon">
+                        <i class="bi bi-trophy"></i>
+                    </div>
+                    <div class="counter-text">
+                        <h2 class="counter-number">32</h2>
+                        <p>Skilled Experts</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="counter-icon">
+                        <i class="bi bi-folder2-open"></i>
+                    </div>
+                    <div class="counter-text">
+                        <h2 class="counter-number">235</h2>
+                        <p>Finished Project</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="counter-icon">
+                        <i class="bi bi-collection-play-fill"></i>
+                    </div>
+                    <div class="counter-text">
+                        <h2 class="counter-number">900</h2>
+                        <p>Media Posts</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+     </section>
 
     <!-- Our Story -->
     <section class="story py-5 bg-body-tertiary">
@@ -533,6 +595,7 @@
 </body>
 
 </html>
+
 
 
 
